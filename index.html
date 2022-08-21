@@ -3,90 +3,10 @@
   <head>
    <meta http-equiv="content-type" conten="text/html; charset=utf-8" />
    <title>Counter</title>
+   <link rel="stylesheet" href="style.css">
   </head>
   <body>
   </body>
-  <script type="text/javascript" charset="utf-8">
-
-    let body = document.querySelector('body')
-  let counter = document.createElement('div')
-  let value = 0
-  counter.innerText = value
-  
-  let add = document.createElement('button')
-  let remove = document.createElement('button')
-  let reset = document.createElement('button')
-  
-  add.innerText = "+"
-  add.className = 'add'
-  
-  remove.innerText = "-"
-  remove.className = 'remove'
-  
-  reset.innerText = 'Reset'
-  reset.className = 'reset'
-  
-  
-  body.appendChild(counter)
-  body.appendChild(add)
-  body.appendChild(remove)
-  body.appendChild(reset)
-  
-  
-  window.addEventListener('click', (e)=> {
-  e.target.className === 'remove' & value > 0 ? (value--): value
-  e.target.className === 'add' ? value = value + 1: value
-  e.target.className === 'reset' ? value = 0: value
-  counter.innerText = value
-  
-  })
+  <script type="text/javascript" charset="utf-8" src="./index.js">
   </script>
-<style type="text/css" media="all">
-body {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: stretch;
-font-family: roboto;
-}
-div {
-display: flex;
-align-items: end;
-justify-content: center;
-width: 100vw;
-height: 50vw;
-font-size: 30vw;
-align-self: stretch;
-
-}
-button {
-margin: 10px;
-padding: 10px;
-color: white;
-font-size: 120px;
-font-weight: 600;
-border: solid black 5px;
-border-radius: 8px;
-height: 10vh;
-}
-button:active {
-border: solid 4px lightgrey;
-outline-color: transparent;
-outline-style: solid;
-box-shadow: 0 0 0 10px #ffdf90;
-color: #ffbf00;
-}
-.add {
-background-color: darkgreen;
-}
-.remove {
-background-color: darkred;
-}
-.reset {
-color: white;
-background-color: purple;
-
-
-}
-</style>
 </html>
