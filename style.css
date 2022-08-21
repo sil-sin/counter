@@ -4,44 +4,54 @@ body {
     justify-content: center;
     align-items: stretch;
     font-family: roboto;
-    }
-    div {
+}
+
+div {
     display: flex;
     align-items: end;
     justify-content: center;
     width: 100vw;
     font-size: 30vw;
     align-self: stretch;
-    
-    }
-    button {
+
+}
+
+button {
     margin: 10px;
-    padding: 10px;
     color: white;
-    font-size: 100px;
+    font-size: 10vh;
     font-weight: 600;
     border: solid black 5px;
     border-radius: 8px;
-    }
-    button:active {
+}
+
+button:active {
     border: solid 4px lightgrey;
     outline-color: transparent;
     outline-style: solid;
     box-shadow: 0 0 0 10px #ffdf90;
     color: #ffbf00;
-    }
-    .add {
+}
+
+.add {
     background-color: darkgreen;
-    }
-    .remove {
+}
+
+.remove {
     background-color: darkred;
-    }
-    .reset {
+}
+
+.reset {
     color: white;
     background-color: purple;
-    
-    
-    }
-    .time{
-font-size: 20px;        color: blue;
-    }
+
+
+}
+
+.time {
+    font-size: 30px;
+    color: blue;
+    background-color: #ffedbe;
+    padding: 5px;
+
+}

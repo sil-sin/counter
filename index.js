@@ -29,7 +29,7 @@ window.addEventListener("click", (e) => {
   e.target.className === "add" ? (value = value + 1) : value;
   if (e.target.className === "reset") {
     value = 0;
-    localStorage.setItem("date", newDate);
+    localStorage.setItem("date", `${newDate.toLocaleDateString('de-DE')} - ${newDate.toLocaleTimeString()}`);
   window.location.reload()}
   counter.innerText = value;
 });
