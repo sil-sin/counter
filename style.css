@@ -1,9 +1,17 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_bold.woff);
+    font-weight: bold;
+ }
+ 
+ * {
+    font-family: myFirstFont;
+ }
 body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
-  font-family: roboto;
 }
 
 div {
