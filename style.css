@@ -1,57 +1,60 @@
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
-    font-family: roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  font-family: roboto;
 }
 
 div {
-    display: flex;
-    align-items: end;
-    justify-content: center;
-    width: 100vw;
-    font-size: 30vw;
-    align-self: stretch;
-
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  width: 100vw;
+  font-size: 30vw;
+  align-self: stretch;
 }
 
 button {
-    margin: 10px;
-    color: white;
-    font-size: 10vh;
-    font-weight: 600;
-    border: solid black 5px;
-    border-radius: 8px;
+  margin: 10px;
+  color: white;
+  font-size: 72px;
+  font-weight: 600;
+  border: solid black 5px;
+  border-radius: 8px;
 }
 
 button:active {
-    border: solid 4px lightgrey;
-    outline-color: transparent;
-    outline-style: solid;
-    box-shadow: 0 0 0 10px #ffdf90;
-    color: #ffbf00;
+  border: solid 4px lightgrey;
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 0 0 0 10px #ffdf90;
+  color: #ffbf00;
 }
 
 .add {
-    background-color: darkgreen;
+  background-color: darkgreen;
 }
 
 .remove {
-    background-color: darkred;
+  background-color: darkred;
 }
 
 .reset {
-    color: white;
-    background-color: purple;
-
-
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
 }
-
-.time {
-    font-size: 30px;
-    color: blue;
-    background-color: #ffedbe;
-    padding: 5px;
-
+.bottle {
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: blueviolet;
+  width: 40%;
+}
+h6,h4{
+    margin: 10px;
 }
