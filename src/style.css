@@ -1,35 +1,27 @@
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_bold.woff);
-    font-weight: bold;
- }
- 
- * {
-    font-family: myFirstFont;
- }
 body {
+  width: 100vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: stretch;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 div {
+  font-size: 160px;
   display: flex;
-  align-items: end;
-  justify-content: center;
-  width: 100vw;
-  font-size: 20vh;
-  align-self: stretch;
+  justify-content: space-around;
+  
 }
 
 button {
-  margin: 10px;
+  margin: 10px 0;
   color: white;
-  font-size: 72px;
+  font-size: 36px;
   font-weight: 600;
   border: solid black 5px;
   border-radius: 8px;
+  align-self: stretch;
 }
 
 button:active {
@@ -46,24 +38,26 @@ button:active {
 }
 
 .remove {
-  background-color: darkred;
+  background-color: rgba(139, 0, 0, 0.788);
 }
 
 .reset {
   display: flex;
-  width: 100vw;
   justify-content: space-around;
   align-items: center;
 }
-.bottle {
-    
+
+.b1,
+.b2 {
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
   background-color: blueviolet;
-  width: 40%;
+  margin: 0;
+  padding: 5px;
 }
-h6,h4{
-    margin: 10px;
+.b1Time,
+.b2Time {
+  font-size: medium;
 }

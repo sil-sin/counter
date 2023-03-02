@@ -1,0 +1,9 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": "auth.token.email == silviberat@gmail.com",
+    "$other": {
+      ".write": true
+    }
+  }
+}

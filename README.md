@@ -1,2 +1,0 @@
-# counter
-Simple counter
